@@ -19,6 +19,7 @@ nav {
   width: 20%;
   background-color: #883ab4;
   padding: 10px;
+  margin: 20px;
 }
 
 ul {
@@ -45,4 +46,14 @@ footer {
 .footer a {
   color: black;
   margin-right: 8px;
+}
+
+.category-wrapper {
+  background-color: #aea4bf;
+  margin-bottom: 10px;
+}
+
+.category {
+  border: 5px solid #8f6593;
+  padding: 15px;
 }
