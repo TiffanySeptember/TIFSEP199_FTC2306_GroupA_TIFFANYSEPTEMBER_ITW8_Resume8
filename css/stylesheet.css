@@ -58,3 +58,39 @@ footer {
   border: 5px solid #8f6593;
   padding: 15px;
 }
+
+form {
+  width: 40%;
+  margin: auto;
+}
+
+.input-wrapper {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #8f6593;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #883ab4;
+  color: #aea4bf;
+  text-align: center;
+}
