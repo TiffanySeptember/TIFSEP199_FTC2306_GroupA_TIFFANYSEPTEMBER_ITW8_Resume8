@@ -2,11 +2,20 @@ body {
   margin: 0;
   border: 5px #a8eb12 solid;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  height: 100%;
 }
 header {
-  background-image: linear-gradient(to right top, #883ab4, #fd1d1d, #fcb045);
+  background-image: url(../images/pexels-pixabay-206359.jpg);
+  height: 100vh;
   padding: 12px 0;
   text-align: center;
+}
+
+.wording-border {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 img {
