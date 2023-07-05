@@ -157,7 +157,13 @@
         </div>
         <div class="input-wrapper">
           <label for="fullName">* Full name:</label>
-          <input type="text" name="fullName" id="fullName" class="input" />
+          <input
+            type="text"
+            name="fullName"
+            id="fullName"
+            class="input"
+            required
+          />
         </div>
         <div class="input-wrapper">
           <label for="email">* Email:</label>
@@ -171,8 +177,15 @@
             cols="30"
             rows="10"
             class="input"
+            required
           ></textarea>
         </div>
+        <input
+          type="hidden"
+          name="_next"
+          value="http://127.0.0.1:5500/thank-you.html"
+        />
+        <input type="hidden" name="_captcha" value="false" />
         <button type="submit">Submit</button>
       </form>
       <a
