@@ -18,7 +18,7 @@
     />
     <link rel="manifest" href="images/site.webmanifest" />
     <link rel="stylesheet" href="css/stylesheet.css" />
-    <title>Resume 7-2</title>
+    <title>Resume 8</title>
   </head>
   <body>
     <header>
@@ -26,20 +26,25 @@
         <picture>
           <source
             media="(max-width: 650px)"
-            srcset="images/IMG_1.jpg"
+            srcset="images/IMG_3.jpg"
             width="150px"
           />
           <source
             media="(max-width: 1000px)"
-            srcset="images/IMG_1.jpg"
+            srcset="images/IMG_2.jpg"
             width="200px"
           />
-          <img src="images/IMG_1.jpg" alt="picture of me" width="250px" />
+          <img
+            src="images/IMG_1.jpg"
+            alt="picture of me"
+            width="250px"
+            class="profile-image"
+          />
         </picture>
       </aside>
       <div class="wording-border">
         <h1>Tiffany September</h1>
-        <p style="display: block; margin: auto; width: 60%">
+        <p>
           A CodeSpace student pursuing my studies in web development. After
           working in retail for most of my life I knew I wanted better for
           myself. That is why I chose software development because it is so
@@ -138,7 +143,7 @@
       </article>
     </section>
     <footer class="footer">
-      <h2 id="contact">Contact Details</h2>
+      <h2 id="contact">Contact Details:</h2>
       <form
         action="https://formsubmit.co/6cd1c80fed70b71c298b70a1aa83836c"
         method="post"
@@ -188,19 +193,27 @@
         <input type="hidden" name="_captcha" value="false" />
         <button type="submit">Submit</button>
       </form>
-      <a
-        href="https://www.linkedin.com/in/tiffany-september-a48616234/"
-        target="_blank "
-      >
-        Linkedin
-      </a>
-      <a href="https://github.com/TiffanySeptember/" target="_blank ">GitHub</a>
-      <a href="https://instagram.com/_thee_snowcat420_" target="_blank ">
-        Instagram
-      </a>
-      <a href="https://facebook.com/tiffany.september.169/" target="_blank ">
-        Facebook
-      </a>
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/tiffany-september-a48616234/"
+          target="_blank "
+        >
+          <img src="images/linkedin.png" alt="linkedin" />
+          <span> Linkedin </span>
+        </a>
+        <a href="https://github.com/TiffanySeptember/" target="_blank ">
+          <img src="images/github.png" alt="github" />
+          <span> GitHub </span>
+        </a>
+        <a href="https://instagram.com/_thee_snowcat420_" target="_blank ">
+          <img src="images/instagram.png" alt="instagram" />
+          <span> Instagram </span>
+        </a>
+        <a href="https://facebook.com/tiffany.september.169/" target="_blank ">
+          <img src="images/facebook.png" alt="facebook" />
+          <span> Facebook </span>
+        </a>
+      </div>
     </footer>
   </body>
 </html>

@@ -18,7 +18,13 @@ header {
   margin-top: 20px;
 }
 
-img {
+.wording-border p {
+  display: block; 
+  margin: auto; 
+  width: 60%
+}
+
+.profile-image {
   border-radius: 50%;
   display: block;
   margin: auto;
@@ -50,12 +56,30 @@ section {
 
 footer {
   background-image: linear-gradient(to bottom left, #883ab4, #fd1d1d, #fcb045);
-  padding: 8px;
+  padding: 10px;
 }
 
-.footer a {
+.social-links {
+  text-align: center;
+}
+
+.social-links a{
   color: black;
-  margin-right: 8px;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.social-links img {
+  width: 30px;
+  vertical-align: middle;
+}
+
+span {
+  vertical-align: middle;
+}
+
+#contact {
+  text-align: center;
 }
 
 .category-wrapper {
@@ -71,6 +95,7 @@ footer {
 form {
   width: 40%;
   margin: auto;
+  margin-bottom: 20px;
 }
 
 .input-wrapper {
@@ -100,6 +125,60 @@ button {
   padding: 10px;
   border-radius: 5px;
   background-color: #883ab4;
-  color: #aea4bf;
+  color: black;
   text-align: center;
+  font-weight: 900;
+  font-size: 16px;
+  width: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+  nav {
+    width: 40%;
+    font-size: 25px;
+  }
+
+  form {
+    width: 70%;
+  }
+
+  .wording-border h1{
+    font-size: 22px;
+  }
+
+  .wording-border h3 {
+    font-size: 18px;
+  }
+
+  .wording-border p {
+    font-size: 16px;
+    width: 80%;
+  }
+} 
+
+@media only screen and (max-width: 600px) {
+  nav {
+    width: auto;
+  }
+
+  form {
+    width: 80%;
+  }
+
+  span {
+    display: none;
+  }
+
+  .wording-border h1{
+    font-size: 20px;
+  }
+
+  .wording-border h3 {
+    font-size: 16px;
+  }
+
+  .wording-border p {
+    font-size: 13px;
+    width: 80%;
+  }
+} 
